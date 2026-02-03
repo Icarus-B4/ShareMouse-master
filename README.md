@@ -22,28 +22,23 @@
 
 ## 🛠️ Installation & Nutzung (Windows)
 
-### Option 1: Lautloser Start (Empfohlen)
+### Option 1: Automatisch mit Windows starten (Empfohlen)
 
-Wir haben eine **Silent-Start-Option** vorbereitet, damit kein störendes Fenster offen bleibt.
+Wir haben ein **Setup-Skript** vorbereitet, das alles automatisch einrichtet:
 
-1. Nach dem Download finden Sie eine **Verknüpfung** auf Ihrem Desktop: `Start ShareMouse Silent`.
-2. Doppelklicken Sie darauf. ShareMouse startet im Hintergrund.
-3. **Wichtig:** Es öffnet sich *kein* Fenster. Das Skript läuft unsichtbar. Sie können im Task-Manager prüfen, ob `python.exe` oder `ShareMouse.exe` läuft.
+1. **Doppelklicken** Sie auf `Setup_Autostart.vbs`.
+2. Es erscheint eine Bestätigung, dass die Verknüpfung erstellt wurde.
+3. Fertig! ShareMouse startet ab jetzt automatisch mit Windows – **ohne sichtbares Fenster** und mit korrektem Icon im Task-Manager.
 
-### Option 2: Automatisch mit Windows starten (Autostart)
+> [!TIP]
+> Das Setup erstellt eine Verknüpfung im Windows-Autostart, die `ShareMouse_AutoReload.exe` startet. Diese Datei wurde mit dem ShareMouse-Icon kompiliert, sodass sie korrekt im Task-Manager angezeigt wird.
 
-Damit ShareMouse immer automatisch und **ohne Fenster** startet:
+### Option 2: Manueller Start
 
-1. Drücken Sie `Windows-Taste + R`.
-2. Geben Sie `shell:startup` ein und drücken Sie `Enter`.
-3. **Kopieren** Sie die Verknüpfung `Start ShareMouse Silent` von Ihrem Desktop in diesen Ordner.
-   - *Alternativ:* Erstellen Sie selbst eine Verknüpfung zu `Start_Silent.vbs` und verschieben Sie diese in den Startup-Ordner.
+Falls Sie ShareMouse nur einmalig starten möchten:
 
-Wenn Sie dies tun, wird auch das **Icon** im Task-Manager (Autostart-Tab) korrekt angezeigt, da Windows das Icon der Verknüpfung verwendet.
-
-### Option 3: Fehlersuche (sichtbares Fenster)
-
-Falls etwas nicht klappt, nutzen Sie die Datei `Start_AutoReload.bat`. Diese öffnet das bekannte schwarze Fenster, in dem Sie Fehlermeldungen sehen können.
+- **Mit Fenster (für Fehlersuche):** Doppelklicken Sie auf `Start_AutoReload.bat`
+- **Ohne Fenster:** Doppelklicken Sie auf `ShareMouse_AutoReload.exe`
 
 ### Manuelle Nutzung (Python)
 
