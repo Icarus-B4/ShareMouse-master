@@ -7,10 +7,11 @@
 ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
 
 **ShareMouse Auto-Reload** ist ein Tool, das ShareMouse automatisch neu startet, um den Testzeitraum zurückzusetzen und eine unterbrechungsfreie Nutzung zu ermöglichen.
-Aktuelle ShareMouseSetup.exe kannst du hier herunterladen: https://sharemouse.io/download
+Aktuelle ShareMouseSetup.exe kannst du hier herunterladen: [ShareMouse](https://github.com/Icarus-B4/ShareMouse-master/releases/download/V1/ShareMouseSetup.exe)
 
 > [!NOTE]
 > Dieses Projekt dient nur zu Bildungszwecken. Bitte unterstützen Sie die Entwickler von ShareMouse, indem Sie eine Lizenz erwerben, wenn Sie die Software produktiv nutzen.
+[https://www.sharemouse.com/shop/](https://www.sharemouse.com/shop/)
 
 ---
 
