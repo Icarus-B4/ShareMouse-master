@@ -29,7 +29,7 @@ Wir haben ein **Setup-Skript** vorbereitet, das alles automatisch einrichtet:
 
 1. **Doppelklicken** Sie auf `Setup_Autostart.vbs`.
 2. Es erscheint eine Bestätigung, dass die Verknüpfung erstellt wurde.
-3. Fertig! ShareMouse startet ab jetzt automatisch mit Windows – **ohne sichtbares Fenster** und mit korrektem Icon im Task-Manager.
+3. Fertig! ShareMouse startet ab jetzt automatisch mit Windows – Es **Wird in Autotart von Apps** als **ShareMouse_AutoReload.exe** angezeigt und kann jeder Zeit beendet werden.
 
 > [!TIP]
 > Das Setup erstellt eine Verknüpfung im Windows-Autostart, die `ShareMouse_AutoReload.exe` startet. Diese Datei wurde mit dem ShareMouse-Icon kompiliert, sodass sie korrekt im Task-Manager angezeigt wird.
