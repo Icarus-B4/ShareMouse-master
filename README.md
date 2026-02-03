@@ -22,23 +22,28 @@
 
 ## 🛠️ Installation & Nutzung (Windows)
 
-### Option 1: Schneller Start (Empfohlen)
+### Option 1: Lautloser Start (Empfohlen)
 
-Wir haben eine Batch-Datei für die einfachste Nutzung vorbereitet.
+Wir haben eine **Silent-Start-Option** vorbereitet, damit kein störendes Fenster offen bleibt.
 
-1. Doppelklicken Sie auf **`Start_AutoReload.bat`**.
-2. Ein schwarzes Konsolenfenster öffnet sich und startet ShareMouse.
-3. Lassen Sie dieses Fenster offen (Sie können es minimieren).
+1. Nach dem Download finden Sie eine **Verknüpfung** auf Ihrem Desktop: `Start ShareMouse Silent`.
+2. Doppelklicken Sie darauf. ShareMouse startet im Hintergrund.
+3. **Wichtig:** Es öffnet sich *kein* Fenster. Das Skript läuft unsichtbar. Sie können im Task-Manager prüfen, ob `python.exe` oder `ShareMouse.exe` läuft.
 
-### Option 2: Automatisch mit Windows starten
+### Option 2: Automatisch mit Windows starten (Autostart)
 
-Damit Sie das Skript nicht jedes Mal manuell starten müssen:
+Damit ShareMouse immer automatisch und **ohne Fenster** startet:
 
 1. Drücken Sie `Windows-Taste + R`.
 2. Geben Sie `shell:startup` ein und drücken Sie `Enter`.
-3. Erstellen Sie eine **Verknüpfung** zu `Start_AutoReload.bat` in diesem Ordner (Rechtsklick auf `Start_AutoReload.bat` -> Senden an -> Desktop (Verknüpfung erstellen), dann in den Ordner verschieben).
+3. **Kopieren** Sie die Verknüpfung `Start ShareMouse Silent` von Ihrem Desktop in diesen Ordner.
+   - *Alternativ:* Erstellen Sie selbst eine Verknüpfung zu `Start_Silent.vbs` und verschieben Sie diese in den Startup-Ordner.
 
-Jetzt startet das Tool automatisch beim Hochfahren Ihres PCs!
+Wenn Sie dies tun, wird auch das **Icon** im Task-Manager (Autostart-Tab) korrekt angezeigt, da Windows das Icon der Verknüpfung verwendet.
+
+### Option 3: Fehlersuche (sichtbares Fenster)
+
+Falls etwas nicht klappt, nutzen Sie die Datei `Start_AutoReload.bat`. Diese öffnet das bekannte schwarze Fenster, in dem Sie Fehlermeldungen sehen können.
 
 ### Manuelle Nutzung (Python)
 
