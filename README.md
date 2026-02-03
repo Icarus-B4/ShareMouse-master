@@ -32,9 +32,9 @@ Wir haben ein **Setup-Skript** vorbereitet, das alles automatisch einrichtet:
 3. Fertig! ShareMouse startet ab jetzt automatisch mit Windows – Es **Wird in Autotart von Apps** als **ShareMouse_AutoReload.exe** angezeigt und kann jeder Zeit beendet werden.
 
 > [!TIP]
-> Das Setup erstellt eine Verknüpfung im Windows-Autostart, die `ShareMouse_AutoReload.exe` startet. 
+> - Das Setup erstellt eine Verknüpfung im Windows-Autostart, die `ShareMouse_AutoReload.exe` startet. 
   Diese Datei wurde mit dem ShareMouse Auto-Reload Icon![ShareMouse Auto-Reload Icon](assets/icon.ico)kompiliert, sodass sie korrekt im Task-Manager angezeigt wird.
-> ShereMouse-Master auf dem zweiten Rechner kopieren und `Setup_Autostart.vbs` ausführen. Benachrichtigung für ShareMouse.exe auf dem ersten Rechner deaktivieren, damit maan nicht alle 5 Minuten eine Benachritigung erhält. 😏
+> - ShereMouse-Master auf dem zweiten Rechner kopieren und `Setup_Autostart.vbs` ausführen. Benachrichtigung für ShareMouse.exe auf dem ersten Rechner deaktivieren, damit maan nicht alle 5 Minuten eine Benachritigung erhält. 😏
 
 ### Option 2: Manueller Start
 
