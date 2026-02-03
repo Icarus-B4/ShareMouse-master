@@ -1,12 +1,12 @@
 # ShareMouse Auto-Reload for Windows
 
-This script is a Windows adaptation of the original ShareMouse auto-reload tool. It automatically restarts ShareMouse every 5 minutes to reset the trial timer.
+Dieses Skript ist eine Windows-Adaption des ursprünglichen ShareMouse-Auto-Reload-Tools. ShareMouse startet automatisch alle 5 Minuten neu, um den Testtimer zurückzusetzen.
 
-## Prerequisites
-- Python installed (likely already available if you are running this).
-- ShareMouse installed at `"C:\Program Files (x86)\ShareMouse\ShareMouse.exe"`.
+## Voraussetzungen
+- Python installiert (wahrscheinlich bereits vorhanden, wenn Sie dies ausführen).
+- ShareMouse installiert unter `"C:\Program Files (x86)\ShareMouse\ShareMouse.exe"`.
 
-## Usage
+## Verwendung
 
 ## Einfacher Start (Easy Start)
 
